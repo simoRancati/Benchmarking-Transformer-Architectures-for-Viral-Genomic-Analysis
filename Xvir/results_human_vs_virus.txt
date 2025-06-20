@@ -1,0 +1,15 @@
+Scenario: Human vs Virus
+Data shape: X=(3690, 18560), unique labels={'human', 'virus'}
+Silhouette PCA:  0.1583  (scaled PCA in range [-10, 10])
+Silhouette UMAP: 0.5435
+
+Pairwise Centroid Distances (scaled PCA space):
+  ('human', 'virus'): 0.9435
+
+RandomForest best params: {'max_depth': None, 'n_estimators': 100}
+RandomForest best CV score: 0.9451
+RandomForest test accuracy: 0.9350
+
+LogisticRegression best params: {'C': 0.1, 'penalty': 'l2', 'solver': 'lbfgs'}
+LogisticRegression best CV score: 0.9861
+LogisticRegression test accuracy: 0.9770

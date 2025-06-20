@@ -1,0 +1,15 @@
+Scenario: Bacteria vs Virus
+Data shape: X=(3680, 18560), unique labels={'virus', 'bacteria'}
+Silhouette PCA:  0.2376  (scaled PCA in range [-10, 10])
+Silhouette UMAP: 0.2162
+
+Pairwise Centroid Distances (scaled PCA space):
+  ('bacteria', 'virus'): 2.3697
+
+RandomForest best params: {'max_depth': None, 'n_estimators': 100}
+RandomForest best CV score: 0.8444
+RandomForest test accuracy: 0.8601
+
+LogisticRegression best params: {'C': 10, 'penalty': 'l2', 'solver': 'saga'}
+LogisticRegression best CV score: 0.9253
+LogisticRegression test accuracy: 0.9334
