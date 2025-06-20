@@ -1,0 +1,12 @@
+name: bac_preds_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - umap-learn
+  - matplotlib
+  - seaborn

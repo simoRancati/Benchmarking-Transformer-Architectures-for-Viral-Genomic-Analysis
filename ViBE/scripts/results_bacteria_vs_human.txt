@@ -1,0 +1,15 @@
+Scenario: Bacteria vs Human
+Data shape: X=(3690, 768), unique labels={'bacteria', 'human'}
+Silhouette PCA:  0.4495  (scaled PCA in range [-10, 10])
+Silhouette UMAP: 0.4794
+
+Pairwise Centroid Distances (scaled PCA space):
+  ('bacteria', 'human'): 10.0707
+
+RandomForest best params: {'max_depth': None, 'n_estimators': 50}
+RandomForest best CV score: 0.9600
+RandomForest test accuracy: 0.9526
+
+LogisticRegression best params: {'C': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+LogisticRegression best CV score: 0.9814
+LogisticRegression test accuracy: 0.9715
