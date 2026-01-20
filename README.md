@@ -1,8 +1,8 @@
 # Single-read viral transformers,exploring transformer architectures for viral metagenomic analysis at the single-read level
 
-# 🔬 Short-read Viral Embedding Benchmark
+# 🔬 Short-read Viral Embedding Evaluation
 
-This repository contains the **code** and **data** to reproduce the **read-level benchmark (2 × 150 bp)** for evaluating transformer-based models in metagenomic virome analysis.
+This repository contains the **code** and **data** to reproduce the **read-level evaluation (2 × 150 bp)** for evaluating transformer-based models in metagenomic virome analysis.
 
 ---
 
@@ -10,8 +10,8 @@ This repository contains the **code** and **data** to reproduce the **read-level
 
 5,520 paired-end Illumina reads simulated from:
 - 184 **HPV genomes**
-- 184 **RefSeq bacterial genomes**
-- 184 **human genome assemblies**
+- 147 **RefSeq bacterial genomes**
+- 62 **human genome assemblies**
 
 All reads have uniform coverage and fragment length distributions.
 
