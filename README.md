@@ -100,19 +100,33 @@ pip install numpy pandas scikit-learn umap-learn matplotlib torch tqdm pyyaml
 
 ### External tool 
 -InSilicoSeq (read simulation)
+
 -Kraken-2 (k-mer classification)
 ### Quickstart
 -Prepare reference FASTA files
--Place HPV, bacterial, and human FASTAs under data/references/
+
+-Place HPV, bacterial, and human FASTAs
+
 -Simulate reads (paired-end 150 bp, NovaSeq profile)
+
 -Output to data/reads/
+
 -Create train/test splits
+
 -Save split manifests to data/splits/ (e.g., per-species stratified 80/20)
+
 -Extract embeddings
+
 -Export per-read embeddings for ViBE and XVir to embeddings/vibe/ and embeddings/xvir/
+
 -Run geometry analysis
+
 -Produce PCA/UMAP plots and compute silhouette/centroid metrics under results/geometry/
+
 -Train and evaluate classifiers
+
 -Fit Logistic Regression / Random Forest models for each task and export metrics to results/classification/
+
 -Run Kraken-2
+
 -Classify held-out reads with Kraken-2 and map predictions to the same four tasks for comparison
