@@ -1,4 +1,4 @@
-# Single-read viral transformers]{Exploring transformer architectures for viral metagenomic analysis at the single-read level
+# Single-read viral transformers,exploring transformer architectures for viral metagenomic analysis at the single-read level
 
 # 🔬 Short-read Viral Embedding Benchmark
 
